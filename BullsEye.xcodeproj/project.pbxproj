@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B11C36C19BD449600E95DE5 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B11C36B19BD449600E95DE5 /* AboutViewController.m */; };
 		0B29F18019B7D47B001DFEAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B29F17F19B7D47B001DFEAC /* Foundation.framework */; };
 		0B29F18219B7D47B001DFEAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B29F18119B7D47B001DFEAC /* CoreGraphics.framework */; };
 		0B29F18419B7D47B001DFEAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B29F18319B7D47B001DFEAC /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B11C36A19BD449500E95DE5 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		0B11C36B19BD449600E95DE5 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		0B29F17C19B7D47B001DFEAC /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B29F17F19B7D47B001DFEAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0B29F18119B7D47B001DFEAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				0B29F19119B7D47B001DFEAC /* Main.storyboard */,
 				0B29F19419B7D47B001DFEAC /* HLViewController.h */,
 				0B29F19519B7D47B001DFEAC /* HLViewController.m */,
+				0B11C36A19BD449500E95DE5 /* AboutViewController.h */,
+				0B11C36B19BD449600E95DE5 /* AboutViewController.m */,
 				0B29F19719B7D47B001DFEAC /* Images.xcassets */,
 				0B29F18619B7D47B001DFEAC /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				0B29F19619B7D47B001DFEAC /* HLViewController.m in Sources */,
 				0B29F19019B7D47B001DFEAC /* HLAppDelegate.m in Sources */,
+				0B11C36C19BD449600E95DE5 /* AboutViewController.m in Sources */,
 				0B29F18C19B7D47B001DFEAC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
